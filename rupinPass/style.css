@@ -1,0 +1,332 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+div.container{
+    width: 100%;
+    
+}
+div.description{
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    background-clip: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    filter:brightness(120%) contrast(130%);
+    box-shadow: 2px 2px 12px #555;
+    display: none;
+    position: relative;
+}
+div.description.one{
+    background-image: url("rupin1.jpg");
+}
+div.description.two{
+    background-image: url("rupin2.jpg");
+}
+div.description.three{
+    background-image: url("rupin3.jpg");
+}
+div.description.four{
+    background-image: url("rupin5.jpg");
+}
+div.description h1.descriptionText{
+    color: black;
+    padding: 5px 10px;
+    font-size: 4em;
+}
+div.description button.btn{
+    position: absolute;
+    top: 30%;
+    background-color: transparent;
+    font-size: 2.5em;
+    border: none;
+    cursor: pointer;
+}
+div.description button.btn.prev{
+    left: 1%;
+}
+div.description button.btn.next{
+    right: 1%;
+}
+div.description button.btn:hover{
+    box-shadow: 4px 4px 12px #555;
+}
+div.trekDescription{
+    background-color:#55b8ce;
+    text-align: center;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    box-shadow: 2px 2px 12px white;
+}
+div.trekDescription p.trekDescription{
+    margin-left: 1em;
+    margin-right: 1em;
+    line-height: 2em;
+    font-size: 1.2em;
+}
+div.day1{
+    width: 100%;
+    height: 100%;
+    background-image: url("dhaula.jpg");
+    background-attachment: fixed;
+    background-clip: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    box-shadow: 2px 2px 12px #555;
+}
+div.day1 div.day1Title
+{
+    text-align: center;
+    color:black;
+}
+div.day1Title h1{
+    font-size: 1.5em;
+}
+div.day1Title h2{
+    font-size: 3em;
+}
+div.day1Description{
+    background:linear-gradient(to right,white,#1b4023);
+    text-align: center;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+div.day1Description p.trekDescription{
+    margin-left: 1em;
+    margin-right: 1em;
+    line-height: 2em;
+    font-size: 1.2em;
+}
+div.day2{
+    width: 100%;
+    height: 100%;
+    background-image: url("sewa.jpg");
+    background-attachment: fixed;
+    background-clip: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    box-shadow: 2px 2px 12px #555;
+}
+div.day2 div.day2Title{
+    text-align: center;
+    color:black;
+}
+div.day2Title h1{
+    font-size: 1.5em;
+}
+div.day2Title h2{
+    font-size: 3em;
+}
+div.day2Description{
+    background:linear-gradient(to right,#dce35b,#45b649);
+    text-align: center;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+div.day2Description p.trekDescription{
+    margin-left: 1em;
+    margin-right: 1em;
+    line-height: 2em;
+    font-size: 1.2em;
+}
+div.day3{
+    width: 100%;
+    height: 100%;
+    background-image: url("jhaka.jpg");
+    background-attachment: fixed;
+    background-clip: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    box-shadow: 2px 2px 12px #555;
+}
+div.day3 div.day3Title{
+    text-align: center;
+    color: black;
+}
+div.day3Title h1{
+    font-size: 1.5em;
+}
+div.day3Title h2{
+    font-size: 3em;
+}
+div.day3Description{
+    background:linear-gradient(to right,#74ebd5,#acb6e5);
+    text-align: center;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+div.day3Description p.trekDescription{
+    margin-left: 1em;
+    margin-right: 1em;
+    line-height: 2em;
+    font-size: 1.2em;
+}
+div.day4{
+    width: 100%;
+    height: 100%;
+    background-image: url("Saruwas.jpg");
+    background-attachment: fixed;
+    background-clip: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    box-shadow: 2px 2px 12px #555;
+}
+div.day4 div.day4Title{
+    text-align: center;
+    color:black;
+}
+div.day4Title h1{
+    font-size: 1.5em;
+}
+div.day4Title h2{
+    font-size: 3em;
+}
+div.day4Description{
+    background-color:#91968c;
+    text-align: center;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+div.day4Description p.trekDescription{
+    margin-left: 1em;
+    margin-right: 1em;
+    line-height: 2em;
+    font-size: 1.2em;
+}
+div.day5{
+    width: 100%;
+    height: 100%;
+    background-image: url("dhanderas.jpg");
+    background-attachment: fixed;
+    background-clip: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    box-shadow: 2px 2px 12px #555;
+}
+div.day5 div.day5Title{
+    text-align: center;
+    color:black;
+}
+div.day5Title h1{
+    font-size: 1.5em;
+}
+div.day5Title h2{
+    font-size: 3em;
+}
+div.day5Description{
+    background-color:whitesmoke;
+    text-align: center;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+div.day5Description p.trekDescription{
+    margin-left: 1em;
+    margin-right: 1em;
+    line-height: 2em;
+    font-size: 1.2em;
+}
+div.day6{
+    width: 100%;
+    height: 100%;
+    background-image: url("upperWaterFall.jfif");
+    background-attachment: fixed;
+    background-clip: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    box-shadow: 2px 2px 12px #555;
+}
+div.day6 div.day6Title{
+    text-align: center;
+    color:black;
+}
+div.day6Title h1{
+    font-size: 1.5em;
+}
+div.day6Title h2{
+    font-size: 3em;
+}
+div.day6Description{
+    background-color:whitesmoke;
+    text-align: center;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+div.day6Description p.trekDescription{
+    margin-left: 1em;
+    margin-right: 1em;
+    line-height: 2em;
+    font-size: 1.2em;
+}
+div.day7{
+    width: 100%;
+    height: 100%;
+    background-image: url("rukti.jpg");
+    background-attachment: fixed;
+    background-clip: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    box-shadow: 2px 2px 12px #555;
+}
+div.day7 div.day7Title{
+    text-align: center;
+    color:black;
+}
+div.day7Title h1{
+    font-size: 1.5em;
+}
+div.day7Title h2{
+    font-size: 3em;
+}
+div.day7Description{
+    background-color:whitesmoke;
+    text-align: center;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+div.day7Description p.trekDescription{
+    margin-left: 1em;
+    margin-right: 1em;
+    line-height: 2em;
+    font-size: 1.2em;
+}
+div.topNav{
+    width: 100%;
+    height: 60px;
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: hidden;
+    box-shadow: 2px 2px 12px #555;
+    white-space: nowrap;
+}
+div.topNav a{
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 1.2em;
+    text-transform: capitalize;
+}
+div.topNav a:hover{
+    background-color: white;
+}
+
